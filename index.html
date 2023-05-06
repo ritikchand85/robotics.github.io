@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robotics Application Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="up">
+      <div class="logo">
+        <img src="/static/images/e-cell logo new.png" alt="">
+        <a href="index.html">Robotics Club MANIT-Bhopal</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a class="link" href="#about">About Robotics</a></li>
+        <li><a class="link" href="#robotics-club">Robotics club</a></li>
+        
+        <li><a class="link" href="#register">Register</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+    <!-- orange shadow below the nav bar -->
+    <div class="down nav-shadow">
+    </div>
+  </nav>
+  <!-- About Section -->
+  <section id="about">
+    <div class="left">
+      <div class="text">
+        <h1>ABOUT ROBOTICS</h1>
+ 
+        <p>
+         Robotics has become a popular field of study and interest among people of all ages in recent years.The craze for robotics is driven by its potential to transform industries, improve daily life, and solve complex problems.
+              Robotics competitions and events attract a large number of participants and spectators, reflecting the growing interest in the field.
+Robotics enthusiasts are constantly experimenting with new technologies and techniques to push the boundaries of what is possible with robots.
+                    The increasing demand for robotics experts in industries such as healthcare, manufacturing, and logistics further fuels the craze for robotics.
+        </p>
+  
+      </div>
+      <div class="contact">
+        <h1>Social-handle:</h1>
+        <div class="social">
+         
+          <a href="https://instagram.com/roboticsclubmanit?igshid=ZDdkNTZiNTM=" target="_blank">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+        </div>
+       
+      </div>
+    </div>
+    <div class="right">
+      <img src="robot.jpg" alt="coder">
+    </div>
+  </section>
+
+  <!-- events section -->
+  <section id="robotics-club" class="events-section">
+    <div class="left">
+      <div class="text">
+        <h1>ROBOTICS CLUB 2024</h1>
+        <h2>MANIT BHOPAL</h2>
+
+        <p>
+          The Robotics Club at Maulana Azad National Institute of Technology
+          (MANIT) in Bhopal is a group of enthusiastic and talented students who share a passion for robotics.
+          The club is dedicated to advancing the knowledge and skills of its members in the field of robotics by
+          providing a platform for them to collaborate, experiment, and learn. The club organizes a range of events,
+          workshops, and competitions throughout the year, aimed at promoting the development of innovative and
+          practical robotics solutions.
+
+        </p>
+        <p>
+
+
+          The Robotics Club at MANIT Bhopal offers a variety of opportunities for students to get involved in robotics,
+          whether they are beginners or experienced enthusiasts. The club's members work together to build robots,
+          program them, and explore new ways to use robotics technology to solve real-world problems. They also
+          participate in national and international robotics competitions, where they showcase their skills and
+          knowledge.
+
+
+        </p>
+      </div>
+    </div>
+    <div class="right">
+      <img src="club.jpeg" height:40px; width:20px; alt="coder">
+    </div>
+  </section>
+  <!-- Event Registration Form Section -->
+  <section class="event-form" id="register">
+    <h1>Event Registration Form</h1>
+    <form id="event-registration" action="#">
+      <label for="first_name">First Name</label>
+      <input type="text" name="first_name" id="first_name" required>
+
+      <label for="last_name">Last Name</label>
+      <input type="text" id="last_name" name="last_name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name=" phone" required>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" id="dob" required>
+
+      <label for="workplace">College/Company</label>
+      <input type="text" id="workplace" name="workplace" required>
+
+      <button id="submit-button" type="submit">Register</button>
+    </form>
+  </section>
+</body>
+<script src="script.js"></script>
+
+</html>
